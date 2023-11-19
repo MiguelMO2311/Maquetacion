@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 3px;
+    box-sizing: border-box;
+
+
+}
+
+.block {
+    width: 600px;
+    height: 830px;
+    border: 15px double rgb(172, 174, 176);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.Header {
+    width: 565px;
+    height: 130px;
+    border: 10px solid rgb(153, 210, 166);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+.Nav {
+    width: 565px;
+    height: 85px;
+    border: 10px solid rgb(201, 163, 204);
+    border-radius: 5px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.CountainMain {
+    width: 570px;
+    height: 500px;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.CountainMain--Article {
+    width: 375px;
+    height: 500px;
+    border-radius: 15px;
+    border: 12px solid rgb(98, 170, 230);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.Article--Header {
+    width: 345px;
+    height: 70px;
+    border: 7px solid rgb(153, 210, 166);
+    border-radius: 10px;
+    display: flex;
+}
+.Article--Section1 {
+    width: 345px;
+    height: 50px;
+    border: 7px solid rgb(199, 138, 175);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap:nowrap;
+    align-items: flex-end;
+    }
+
+.Article--Section2 {
+    width: 345px;
+    height: 50px;
+    border: 7px solid rgb(199, 138, 175);
+    border-radius: 10px;
+    
+}
+
+.Article--Footer {
+    width: 345px;
+    height: 50px;
+    border: 7px double rgb(215, 214, 130);
+    border-radius: 10px;
+    
+}
+
+.CountainMain--Div {
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+    height: 500px;
+    border: 10px double rgb(213, 190, 113);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.Div--Aside1 {
+    
+    width: 155px;
+    height: 205px;
+    border: 7px solid rgb(112, 181, 243);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.Div--Aside2 {
+  
+    width: 155px;
+    height: 205px;
+    border: 7px solid rgb(112, 181, 243);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Footer {
+    width: 565px;
+    height: 200px;
+    border: 7px double rgb(215, 214, 130);
+    margin-bottom: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end; 
+    border-radius: 10px;
+}
