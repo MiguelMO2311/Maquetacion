@@ -1,0 +1,202 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #d4ae60;
+    /* Used if the image is unavailable */
+    width: 1000px;
+    height: 450px;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+header {
+    border-color: solid 1px rgb(0, 255, 68);
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(31, 31, 29);
+    color: rgb(13, 41, 184);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    background-image: url("imagen_fondo_agenciaViaje.jpg");
+    background-color: #42413f;
+    /* Used if the image is unavailable */
+    width: 100vw;
+    height: 400px;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+.bloqUp {
+
+    width: 600px;
+    height: 300px;
+    color: rgb(173, 35, 35);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.LogAgency {
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+.countainMainCard {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+.card {
+    width: 500px;
+    height: 400px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.carBlog {
+    width: 500px;
+    height: 400px;
+    color: white;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.imageCard {
+    padding: auto;
+    border-color: solid rgb(0, 238, 255);
+    width: 200px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+    flex-wrap: wraps;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+.contacts {
+
+    border-color: solid rgb(102, 255, 0);
+    width: 500px;
+    height: 100px;
+    background-color: rgb(210, 96, 35);
+    color: rgb(131, 107, 107);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.texto_titulo {
+    padding-top: 20px;
+    width: 350px;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    padding: auto;
+    color: rgb(213, 137, 60);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.texto_parrafo {
+    padding-left: 5px;
+    width: 300px;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(215, 37, 37);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+button {
+        padding: 0.5rem 1rem;
+        background-color: var(--secondary-color); /* Secondary color for buttons */
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: row;
+    }
+    
+button:hover {
+        background-color: #0091cc;
+    }
+
+.travel-list {
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease-in-out;
+}
+
+.travel-list:hover {
+background-color: #f2f2f2;
+} 
+#filter {
+    margin-top: 1rem;
+}
+
+#travel-list {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease-in-out;
+}
+
+li:hover {
+    background-color: #f2f2f2;
+}
